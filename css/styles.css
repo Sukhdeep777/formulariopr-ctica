@@ -27,13 +27,6 @@ h2{ /*Para todos los subtitulos*/
     padding: 0.5rem;
 }
 
-.header{ /* Dar tamaño al header para que quede identico*/
-    width: 1500px;
-}
-
-.divs{ /*Dar tamaño a los divs que no sean el header*/
-    width: 1500px;
-}
 
 .clearblue{ /*Un fondo azul para el formulario*/
     background-color: #DDEEFF;
