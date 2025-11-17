@@ -1,0 +1,41 @@
+body{
+    background-color: #FFFFFF; /*Fondo de color azul palido*/
+}
+
+.flex{
+    display: flex; /*Para poner flex a diferentes etiquetas*/
+}
+
+.content-center{
+    justify-content: center; /*Para poner los dives u otros elementos en el centro*/
+}
+
+h1{  /*Unico titulo, le pones fuente de familia similar i un tamaño parecido*/
+    font-size: 4.5rem;
+    font-family: sans-serif;
+    text-align: center;
+} 
+
+h2{ /*Para todos los subtitulos*/
+    color: #FFFFFF;
+    border: 1px solid #4879aa;
+    background-color: #4879aa;
+    text-align: start;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 0.5rem;
+}
+
+.header{ /* Dar tamaño al header para que quede identico*/
+    width: 1500px;
+}
+
+.divs{ /*Dar tamaño a los divs que no sean el header*/
+    width: 1500px;
+}
+
+.clearblue{ /*Un fondo azul para el formulario*/
+    background-color: #DDEEFF;
+}
+
