@@ -108,3 +108,7 @@ table{
 th, td{
     padding: 0.4rem 1.123rem; /*Agrandar por dentro la tabla*/
 }
+
+.padding-bottom{ /*Le ponemos un espacio interior para que cree mas fondo hacia abajo de color azul*/
+    padding-bottom: 4rem;
+}
