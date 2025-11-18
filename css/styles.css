@@ -48,7 +48,7 @@ h2{ /*Para todos los subtitulos*/
     background-color: #DDEEFF;
 }
 
-label{ /*Los labels tienen familia i un tamaño pequeño igual que la imagen*/
+label, p{ /*Los labels tienen familia i un tamaño pequeño igual que la imagen i el p.*/
     font-family: sans-serif;
     font-size: 0.7rem; 
 }
@@ -61,6 +61,10 @@ label{ /*Los labels tienen familia i un tamaño pequeño igual que la imagen*/
     margin: 0.4rem;
 }
 
-.gap{
+.gap{ /*Para hacer una separación entre divs con flex*/
     gap: 0.4rem;
+}
+
+.border{ /*Para poner un borde del color del formulario*/
+    border: 2px solid rgb(106, 152, 219);
 }

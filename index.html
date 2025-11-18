@@ -22,9 +22,14 @@
                 </div>
                 <div class="flex content-center">
                     <form class="form-width">
-                        <div class="form-margin">
-                            <label for="Name">Proposed Insured's Name:</label>
-                            <input type="text" name="Name" id="Name">
+                        <div class="form-margin flex gap">
+                            <div>
+                                <label for="Name">Proposed Insured's Name:</label>
+                                <label>(Please use Capital letters)</label>                                
+                            </div>
+                            <div>
+                                <textarea name="Name" id="Name" cols="52"></textarea>                                
+                            </div>
                         </div>
                         <div class="form-margin flex gap">
                             <div>
@@ -82,9 +87,36 @@
                     <h2>B.Type of Health Coverage</h2>
                 </div>
                 <div class="flex content-center">
-                    <form class="form-width">
-                        
-                    </form>
+                    <div class="flex form-width content-center">
+                        <div class="border">
+                            <form>
+                                <label>Employee:</label>
+                                <input type="radio" name="Employee[]" id="Yes">
+                                <label for="Yes">Yes</label>
+                                <input type="radio" name="Employee[]" id="No">
+                                <label for="No">No</label>
+                            </form>
+                            <p>Plan Choise:</p>
+                        </div>
+                        <div class="border">
+                            <form>
+                                <label>Spouse:</label>
+                                <input type="radio" name="Spouse[]" id="Yes1">
+                                <label for="Yes1">Yes</label>
+                                <input type="radio" name="Spouse[]" id="No1">
+                                <label for="No1">No</label>
+                            </form>
+                        </div>
+                        <div class="border">
+                            <form>
+                                <label>Children</label>
+                                <input type="radio" name="Children[]" id="Yes2">
+                                <label for="Yes2">Yes</label>
+                                <input type="radio" name="Children[]" id="No2">
+                                <label for="No2">No</label>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div></div>
