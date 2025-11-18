@@ -81,3 +81,14 @@ label, p{ /*Los labels tienen familia i un tamaño pequeño igual que la imagen 
 .margin{ /*Para poner margenes horizontalmente a los divs*/
     margin: 0 1.2rem;
 }
+
+caption{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    width: 17.8rem;
+    padding: 1rem;
+}
+
+table, td, th, tr{
+    border: 1px solid #52b4e2;
+}
