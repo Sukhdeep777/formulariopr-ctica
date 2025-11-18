@@ -35,6 +35,8 @@ h1{  /*Unico titulo, le pones fuente de familia similar i un tamaño parecido*/
     font-family: sans-serif;
     text-align: center;
     padding: 0 1rem;
+    margin-bottom: 1.3rem;
+    margin-top: 1.5rem;
 } 
 
 h2{ /*Para todos los subtitulos*/
@@ -44,14 +46,15 @@ h2{ /*Para todos los subtitulos*/
     font-size: 0.8rem; /*Poner un tamaño de fuente*/
     font-weight: normal;/*Que no tenga tamaño / bold*/
     font-family: sans-serif; /*Fuente de familia parecida al del formulario del papel*/
-    padding: 0.3rem; /*Espacio interior*/
+    padding: 0.4rem; /*Espacio interior*/
     padding-right: 25rem; /*Para espaciar el h2*/
     width: 11rem; /*Tamaño maximo del h2*/
+    margin-top: 1.8rem;
 }
 
 .clearblue{ /*Un fondo azul para el formulario*/
     background-color: #DDEEFF;
-    padding: 0 3.4rem; /*Padding para que el fondo se vea igual que el titulo*/
+    padding: 0 3.35rem; /*Padding para que el fondo se vea igual que el titulo*/
 }
 
 label, p{ /*Los labels tienen familia i un tamaño pequeño igual que la imagen i el p.*/
