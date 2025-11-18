@@ -91,4 +91,8 @@ caption{
 
 table, td, th, tr{
     border: 1px solid #52b4e2;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 0.7rem;
 }
