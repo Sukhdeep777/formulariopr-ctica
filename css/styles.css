@@ -74,8 +74,9 @@ label, p{ /*Los labels tienen familia i un tamaño pequeño igual que la imagen 
     gap: 0.4rem;
 }
 
-.border{ /*Para poner un borde del color del formulario*/
+.border{ /*Para poner un borde del color del formulario i el fondo*/
     border: 1px solid #52b4e2;
+    background-color: #FFFFFF;
 }
 
 .margin{ /*Para poner margenes horizontalmente a los divs*/
@@ -98,6 +99,7 @@ table, td, th, tr{
     font-family: sans-serif; /*Fuente del texto*/
     font-weight: normal; /*Que no tenga como formato bold*/
     font-size: 0.7rem; /*Tamaño de la letra*/
+    background-color: #FFFFFF; /*Fondo blanco*/
 }
 
 table{
@@ -111,4 +113,13 @@ th, td{
 
 .padding-bottom{ /*Le ponemos un espacio interior para que cree mas fondo hacia abajo de color azul*/
     padding-bottom: 4rem;
+}
+
+.color-blue{ /*Para cambiar el color como el de las lineas*/
+    color: #52b4e2;
+    width: 21rem;
+}
+
+.input-border{ /*Para poner el borde de color azul*/
+    border: 1px solid #52b4e2;
 }
