@@ -79,10 +79,14 @@ label, p{ /*Los labels tienen familia i un tamaño pequeño igual que la imagen 
 }
 
 .margin{ /*Para poner margenes horizontalmente a los divs*/
-    margin: 0 1.2rem;
+    margin: 0 1.4rem;
 }
 
-caption{
+.padding-right{
+    padding-right: 0.4rem; /*Para poner un espacio interior a la derecha*/
+}
+
+caption{ /*Titulo de la tabla con su fuente, tamaño y tamaño del width*/
     font-family: sans-serif;
     font-size: 0.7rem;
     width: 17.8rem;
@@ -90,9 +94,17 @@ caption{
 }
 
 table, td, th, tr{
-    border: 1px solid #52b4e2;
-    font-family: sans-serif;
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 0.7rem;
+    border: 1px solid #52b4e2; /*Borde de la tabla, td i de mas*/
+    font-family: sans-serif; /*Fuente del texto*/
+    font-weight: normal; /*Que no tenga como formato bold*/
+    font-size: 0.7rem; /*Tamaño de la letra*/
+}
+
+table{
+    border-collapse: collapse; /*Para que se vea como una tabla basica*/
+    margin-left: 0.8rem; /*Para centrarlo */
+}
+
+th, td{
+    padding: 0.4rem 1.123rem; /*Agrandar por dentro la tabla*/
 }
