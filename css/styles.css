@@ -66,7 +66,7 @@ label, p{ /*Los labels tienen familia i un tamaño pequeño igual que la imagen 
 }
 
 .border{ /*Para poner un borde del color del formulario*/
-    border: 2px solid rgb(106, 152, 219);
+    border: 2px solid #30D5C8;
 }
 
 .margin{ /*Para poner margenes horizontalmente a los divs*/
