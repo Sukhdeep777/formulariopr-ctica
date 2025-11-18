@@ -6,27 +6,31 @@ body{
     display: flex; /*Para poner flex a diferentes etiquetas*/
 }
 
+.column{ /*Para poner el flex en columna*/
+    flex-direction: column;
+}
+
 .content-center{
     justify-content: center; /*Para poner los dives u otros elementos en el centro*/
 }
 
 h1{  /*Unico titulo, le pones fuente de familia similar i un tamaño parecido*/
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-family: sans-serif;
     text-align: center;
 } 
 
 h2{ /*Para todos los subtitulos*/
-    color: #FFFFFF;
-    border: 1px solid #4879aa;
-    background-color: #4879aa;
-    text-align: start;
-    font-size: 0.9rem;
-    text-decoration: none;
-    font-family: sans-serif;
-    padding: 0.5rem;
+    color: #FFFFFF; /*Color de texto*/
+    background-color: #6081a3; /*Fondo de color al h2*/
+    text-align: start; /*Alinear el texto al principio y no al medio*/
+    font-size: 0.8rem; /*Poner un tamaño de fuente*/
+    text-decoration: none; /*Que no tenga decoración*/
+    font-family: sans-serif; /*Fuente de familia parecida al del formulario del papel*/
+    padding: 0.3rem; /*Espacio interior*/
+    padding-right: 25rem; /*Para espaciar el h2*/
+    width: 11rem; /*Tamaño maximo del h2*/
 }
-
 
 .clearblue{ /*Un fondo azul para el formulario*/
     background-color: #DDEEFF;
