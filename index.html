@@ -7,122 +7,124 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="flex content-center">
-            <div>
-                <h1>Application Form</h1>
+    <div class="flex column align-center">
+        <header>
+            <div class="flex content-center background-white">
+                <div>
+                    <h1>Application Form</h1>
+                </div>  
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="clearblue">
-            <div>
-                <div class="flex content-center">
-                    <h2>A.General Questions</h2>
+        </header>
+        <main>
+            <div class="clearblue">
+                <div>
+                    <div class="flex content-center">
+                        <h2>A.General Questions</h2>
+                    </div>
+                    <div class="flex content-center">
+                        <form class="form-width">
+                            <div class="form-margin flex gap">
+                                <div>
+                                    <label for="Name">Proposed Insured's Name:</label>
+                                    <label>(Please use Capital letters)</label>                                
+                                </div>
+                                <div>
+                                    <textarea name="Name" id="Name" cols="52"></textarea>                                
+                                </div>
+                            </div>
+                            <div class="form-margin flex gap">
+                                <div>
+                                    <label for="Birthday">Birth Date:</label>
+                                    <input type="date" name="Birthday" id="Birthday">
+                                </div>
+                                <div>
+                                    <label>Gender:</label>
+                                    <input type="radio" name="gender[]" id="Male">
+                                    <label for="Male">Male</label>
+                                    <input type="radio" name="gender[]" id="Female">
+                                    <label for="Female">Female</label>
+                                </div>
+                            </div>
+                            <div class="form-margin">
+                                <label for="Address">Address:</label>
+                                <input type="text" name="Address" id="Address">
+                            </div>
+                            <div class="form-margin flex gap">
+                                <div>
+                                    <label for="Phone-Number">Phone Number:</label>
+                                    <input type="tel" name="Phone-Number" id="Phone-Number">
+                                </div>
+                                <div>
+                                    <label for="email">Email Address:</label>
+                                    <input type="email" name="email" id="email">
+                                </div>
+                            </div>
+                            <div class="form-margin flex gap">   
+                                <div>
+                                    <label for="ID">ID Number:</label>
+                                    <input type="number" name="ID" id="ID">
+                                </div>
+                                <div>
+                                    <label for="Social-Security-Number">Social Security Number:</label>
+                                    <input type="number" name="Social-Security-Number" id="Social-Security-Number">
+                                </div>
+                            </div>
+                            <div class="form-margin gap">
+                                <label>Status:</label>
+                                <input type="radio" name="status[]" id="Single">
+                                <label for="Single">Single</label>
+                                <input type="radio" name="status[]" id="Married">
+                                <label for="Married">Married</label>
+                                <input type="radio" name="status[]" id="Devorced">
+                                <label for="Devorced">Devorced</label>
+                                <input type="radio" name="status[]" id="Others">
+                                <label for="Others">Others</label>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="flex content-center">
-                    <form class="form-width">
-                        <div class="form-margin flex gap">
-                            <div>
-                                <label for="Name">Proposed Insured's Name:</label>
-                                <label>(Please use Capital letters)</label>                                
+                <div>
+                    <div class="flex content-center">
+                        <h2>B.Type of Health Coverage</h2>
+                    </div>
+                    <div class="flex content-center">
+                        <div class="flex form-width content-center">
+                            <div class="border">
+                                <form class="margin">
+                                    <label>Employee:</label>
+                                    <input type="radio" name="Employee[]" id="Yes">
+                                    <label for="Yes">Yes</label>
+                                    <input type="radio" name="Employee[]" id="No">
+                                    <label for="No">No</label>
+                                    <p>Plan Choise:</p>
+                                </form>
                             </div>
-                            <div>
-                                <textarea name="Name" id="Name" cols="52"></textarea>                                
+                            <div class="border">
+                                <form class="margin">
+                                    <label>Spouse:</label>
+                                    <input type="radio" name="Spouse[]" id="Yes1">
+                                    <label for="Yes1">Yes</label>
+                                    <input type="radio" name="Spouse[]" id="No1">
+                                    <label for="No1">No</label>
+                                    <p>Plan Choise:</p>
+                                </form>
                             </div>
-                        </div>
-                        <div class="form-margin flex gap">
-                            <div>
-                                <label for="Birthday">Birth Date:</label>
-                                <input type="date" name="Birthday" id="Birthday">
+                            <div class="border">
+                                <form class="margin">
+                                    <label>Children</label>
+                                    <input type="radio" name="Children[]" id="Yes2">
+                                    <label for="Yes2">Yes</label>
+                                    <input type="radio" name="Children[]" id="No2">
+                                    <label for="No2">No</label>
+                                    <p>Plan Choise:</p>
+                                </form>
                             </div>
-                            <div>
-                                <label>Gender:</label>
-                                <input type="radio" name="gender[]" id="Male">
-                                <label for="Male">Male</label>
-                                <input type="radio" name="gender[]" id="Female">
-                                <label for="Female">Female</label>
-                            </div>
-                        </div>
-                        <div class="form-margin">
-                            <label for="Address">Address:</label>
-                            <input type="text" name="Address" id="Address">
-                        </div>
-                        <div class="form-margin flex gap">
-                            <div>
-                                <label for="Phone-Number">Phone Number:</label>
-                                <input type="tel" name="Phone-Number" id="Phone-Number">
-                            </div>
-                            <div>
-                                <label for="email">Email Address:</label>
-                                <input type="email" name="email" id="email">
-                            </div>
-                        </div>
-                        <div class="form-margin flex gap">   
-                            <div>
-                                <label for="ID">ID Number:</label>
-                                <input type="number" name="ID" id="ID">
-                            </div>
-                            <div>
-                                <label for="Social-Security-Number">Social Security Number:</label>
-                                <input type="number" name="Social-Security-Number" id="Social-Security-Number">
-                            </div>
-                        </div>
-                        <div class="form-margin gap">
-                            <label>Status:</label>
-                            <input type="radio" name="status[]" id="Single">
-                            <label for="Single">Single</label>
-                            <input type="radio" name="status[]" id="Married">
-                            <label for="Married">Married</label>
-                            <input type="radio" name="status[]" id="Devorced">
-                            <label for="Devorced">Devorced</label>
-                            <input type="radio" name="status[]" id="Others">
-                            <label for="Others">Others</label>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div>
-                <div class="flex content-center">
-                    <h2>B.Type of Health Coverage</h2>
-                </div>
-                <div class="flex content-center">
-                    <div class="flex form-width content-center">
-                        <div class="border">
-                            <form class="margin">
-                                <label>Employee:</label>
-                                <input type="radio" name="Employee[]" id="Yes">
-                                <label for="Yes">Yes</label>
-                                <input type="radio" name="Employee[]" id="No">
-                                <label for="No">No</label>
-                                <p>Plan Choise:</p>
-                            </form>
-                        </div>
-                        <div class="border">
-                            <form class="margin">
-                                <label>Spouse:</label>
-                                <input type="radio" name="Spouse[]" id="Yes1">
-                                <label for="Yes1">Yes</label>
-                                <input type="radio" name="Spouse[]" id="No1">
-                                <label for="No1">No</label>
-                                <p>Plan Choise:</p>
-                            </form>
-                        </div>
-                        <div class="border">
-                            <form class="margin">
-                                <label>Children</label>
-                                <input type="radio" name="Children[]" id="Yes2">
-                                <label for="Yes2">Yes</label>
-                                <input type="radio" name="Children[]" id="No2">
-                                <label for="No2">No</label>
-                                <p>Plan Choise:</p>
-                            </form>
                         </div>
                     </div>
                 </div>
+                <div></div>
             </div>
-            <div></div>
-        </div>
-    </main>
+        </main>     
+    </div>
 </body>
 </html>

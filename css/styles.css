@@ -1,5 +1,9 @@
 body{
-    background-color: #FFFFFF; /*Fondo de color azul palido*/
+    background-color: #4d4747; /*Fondo de color azul palido*/
+}
+
+.background-white{
+    background-color: #FFFFFF; /*Fondo de color blanco*/
 }
 
 .flex{
@@ -30,6 +34,7 @@ h1{  /*Unico titulo, le pones fuente de familia similar i un tamaño parecido*/
     font-size: 5rem;
     font-family: sans-serif;
     text-align: center;
+    padding: 0 1rem;
 } 
 
 h2{ /*Para todos los subtitulos*/
@@ -46,6 +51,7 @@ h2{ /*Para todos los subtitulos*/
 
 .clearblue{ /*Un fondo azul para el formulario*/
     background-color: #DDEEFF;
+    padding: 0 3.4rem; /*Padding para que el fondo se vea igual que el titulo*/
 }
 
 label, p{ /*Los labels tienen familia i un tamaño pequeño igual que la imagen i el p.*/
