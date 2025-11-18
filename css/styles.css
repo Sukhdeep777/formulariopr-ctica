@@ -14,6 +14,18 @@ body{
     justify-content: center; /*Para poner los dives u otros elementos en el centro*/
 }
 
+.align-center{
+    align-items: center; /*Para poner los elementos al centro*/
+}
+
+.text-start{ /*Poner el texto al principio*/
+    text-align: start;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 h1{  /*Unico titulo, le pones fuente de familia similar i un tamaño parecido*/
     font-size: 5rem;
     font-family: sans-serif;
@@ -25,7 +37,7 @@ h2{ /*Para todos los subtitulos*/
     background-color: #6081a3; /*Fondo de color al h2*/
     text-align: start; /*Alinear el texto al principio y no al medio*/
     font-size: 0.8rem; /*Poner un tamaño de fuente*/
-    text-decoration: none; /*Que no tenga decoración*/
+    font-weight: normal;/*Que no tenga tamaño / bold*/
     font-family: sans-serif; /*Fuente de familia parecida al del formulario del papel*/
     padding: 0.3rem; /*Espacio interior*/
     padding-right: 25rem; /*Para espaciar el h2*/
@@ -36,3 +48,19 @@ h2{ /*Para todos los subtitulos*/
     background-color: #DDEEFF;
 }
 
+label{ /*Los labels tienen familia i un tamaño pequeño igual que la imagen*/
+    font-family: sans-serif;
+    font-size: 0.7rem; 
+}
+
+.form-width{ /*Para poner un tamaño al form*/
+    width: 34rem;
+}
+
+.form-margin{ /*Para poner margenes entre divs*/
+    margin: 0.4rem;
+}
+
+.gap{
+    gap: 0.4rem;
+}
