@@ -22,6 +22,10 @@ body{
     align-items: center; /*Para poner los elementos al centro*/
 }
 
+main, header{
+    width: 43.11125rem;
+} 
+
 .text-start{ /*Poner el texto al principio*/
     text-align: start;
 }
