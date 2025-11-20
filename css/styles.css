@@ -127,3 +127,7 @@ th, td{
 .input-border{ /*Para poner el borde de color azul*/
     border: 1px solid #52b4e2;
 }
+
+.short-fontsize{
+    font-size: 0.5rem;
+}
